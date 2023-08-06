@@ -815,7 +815,6 @@ ol {
   align-items: center;
   justify-content: center;
   fill: transparent;
-  transition: ;
 }
 .modal-check:checked + .modal-check-text span {
   background-color: var(--ocean);
