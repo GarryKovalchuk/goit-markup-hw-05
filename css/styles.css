@@ -789,6 +789,7 @@ ol {
   border-radius: 4px;
   border: 1px solid var(--lightslate);
   padding: 8px 16px;
+  resize: none;
 }
 /*.text-item {
   display: flex;
