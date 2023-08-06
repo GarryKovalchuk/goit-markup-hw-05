@@ -751,7 +751,7 @@ ol {
   height: 40px;
   border-radius: 4px;
   border: 1px solid var(--lightslate);
-  margin-bottom: 8px;
+
   padding-left: 38px;
   padding-right: 16px;
 }
@@ -764,6 +764,9 @@ ol {
   letter-spacing: 0.04em;
   margin-bottom: 4px;
   display: inline-block;
+}
+.modal-field {
+  margin-bottom: 8px;
 }
 /*.text-item {
   display: flex;
