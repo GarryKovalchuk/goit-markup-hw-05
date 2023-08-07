@@ -843,6 +843,9 @@ ol {
 .modal-field {
   margin-bottom: 8px;
 }
+.modal-chck {
+  margin-bottom: 24px;
+}
 .modal-icon {
   position: absolute;
   left: 16px;
@@ -852,6 +855,7 @@ ol {
 }
 .modal-input-wrap {
   position: relative;
+  margin-bottom: 16px;
 }
 
 .modal-comment {
