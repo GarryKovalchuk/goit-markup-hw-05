@@ -896,6 +896,7 @@ ol {
   width: 16px;
   height: 16px;
   border-radius: 2px;
+  display: inline-flex;
 
   stroke-width: 1px;
   stroke: var(--navyblue-modal, rgba(46, 47, 66, 0.4));
