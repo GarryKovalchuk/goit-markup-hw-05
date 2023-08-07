@@ -515,7 +515,7 @@ ol {
   flex-shrink: 0;
 }
 .box-ftr {
-  /*display: flex;*/
+  /*display: inline-block;*/
   justify-content: space-between;
 }
 .ftr-link {
