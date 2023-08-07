@@ -517,6 +517,7 @@ ol {
 .box-ftr {
   /*display: inline-block;*/
   justify-content: space-between;
+  margin-right: 80px;
 }
 .ftr-link {
   transition: background-color 250ms
