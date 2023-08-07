@@ -577,7 +577,7 @@ ol {
 }
 .submit-btn {
   color: var(--white, #fff);
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   font-weight: 500;
   line-height: 1.5;
