@@ -841,7 +841,7 @@ ol {
   display: block;
 }
 .modal-field {
-  margin-bottom: 24px;
+  margin-bottom: 8px;
 }
 .modal-icon {
   position: absolute;
@@ -883,6 +883,7 @@ ol {
   display: inline-flex;
   align-items: center;
   margin-right: 8px;
+  margin-bottom: 24px;
 }
 .modal-check-link {
   color: var(--iris, #4d5ae5);
@@ -891,7 +892,6 @@ ol {
   width: 16px;
   height: 16px;
   border-radius: 2px;
-  display: inline-flex;
 
   stroke-width: 1px;
   stroke: var(--navyblue-modal, rgba(46, 47, 66, 0.4));
