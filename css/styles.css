@@ -830,7 +830,7 @@ ol {
   display: block;
 }
 .modal-field {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 .modal-icon {
   position: absolute;
@@ -867,9 +867,9 @@ ol {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.2;
+  line-height: 1.17;
   letter-spacing: 0.04em;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   margin-right: 8px;
 }
@@ -889,6 +889,7 @@ ol {
   fill: transparent;
 }
 .span-mod {
+  border: none;
   display: inline-flex;
   border: 1px solid rgba(46, 47, 66, 0.4);
   transition: background-color 250ms
