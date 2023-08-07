@@ -805,10 +805,11 @@ ol {
   width: 100%;
   height: 40px;
   border-radius: 4px;
-  border: 1px solid var(--lightslate);
+  border: 1px solid rgba(46, 47, 66, 0.4);
   padding-left: 38px;
   padding-right: 16px;
   outline: transparent;
+  background-color: transparent;
   transition: border-color 250ms
     cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -823,10 +824,10 @@ ol {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.2;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   margin-bottom: 4px;
-  display: inline-block;
+  display: block;
 }
 .modal-field {
   margin-bottom: 8px;
@@ -836,19 +837,30 @@ ol {
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-input-wrap {
   position: relative;
 }
 
 .modal-comment {
+  color: rgba(46, 47, 66, 0.4);
   width: 100%;
   height: 120px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
   border-radius: 4px;
-  border: 1px solid var(--lightslate);
+  border: 1px solid rgba(46, 47, 66, 0.4);
   padding: 8px 16px;
   resize: none;
   outline: transparent;
+  background-color: transparent;
+  transition: border-color 250ms
+    cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-comment:focus {
+  border-color: #4d5ae5;
 }
 .modal-check-text {
   color: var(--lightslate, #8e8f99);
