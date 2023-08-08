@@ -843,7 +843,9 @@ ol {
 .modal-field {
   margin-bottom: 8px;
 }
-
+.modal-area {
+  margin-bottom: 16px;
+}
 .modal-chck {
   margin-bottom: 24px;
 }
@@ -888,7 +890,6 @@ ol {
   display: inline-flex;
   align-items: center;
   margin-right: 8px;
-  margin-bottom: 24px;
 }
 .modal-check-link {
   color: var(--iris, #4d5ae5);
