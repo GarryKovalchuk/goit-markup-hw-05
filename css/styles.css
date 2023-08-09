@@ -895,8 +895,8 @@ ol {
   border-radius: 2px;
   display: inline-flex;
 
-  stroke-width: 1px;
-  stroke: var(--navyblue-modal, rgba(46, 47, 66, 0.4));
+  /*stroke-width: 1px;
+  stroke: var(--navyblue-modal, rgba(46, 47, 66, 0.4));*/
 
   align-items: center;
   justify-content: center;
